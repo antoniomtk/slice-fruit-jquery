@@ -1,0 +1,150 @@
+html {
+   height: 100%;
+}
+
+body {
+   padding: 50px;
+   background-color: #fff;
+   color: #222831;
+}
+
+header {
+   text-align: center;
+   text-transform: uppercase;
+   padding-top: 40px;
+}
+
+#headline {
+   color: #c83660;
+   font-size: 4rem;
+}
+
+#intro, #howto {
+   margin: 0;
+   color: #e15249;
+   text-transform: uppercase; 
+   font-size: 0.9rem;
+   margin: 10px;   
+}
+
+#container {
+   height: 650px;
+   width: 800px;
+   margin: 20px auto;
+   padding: 20px;
+   border: 1px solid #00adb5;
+   border-radius: 5px;
+   position: relative;
+}
+
+#score {
+   color: #00adb5;
+   padding: 11px;
+   position: absolute;
+   left: 660px;
+   top: 5px;
+   text-transform: uppercase;
+   display: none;
+}
+
+#score-value {
+   color: #222831;
+   font-weight: bold;
+}
+
+#fruits-container {
+   width: 720px;
+   height: 480px;
+   margin: 50px auto 10px auto;
+   background-color: #fff;
+   font-size: 100px;
+   text-align: center;
+   font-family: cursive, sans-serif;
+   color: #00adb5;
+   position: relative;
+   overflow: hidden;
+   border: 1px solid #00adb5;
+}
+
+#start-reset {
+   width: 150px;
+   padding: 10px;
+   background-color: #fff;
+   margin: 0 auto;
+   border: 1px solid #00adb5;
+   border-radius: 3px;
+   color: #3a1f5d;
+   cursor: pointer;
+   margin: 20px auto; 
+   text-align: center;
+   position: relative;
+   transition: all 0.2s;
+   -webkit-transition: all 0.2s;
+   -moz-transition: all 0.2s;
+   -o-transition: all 0.2s;
+   -ms-transition: all 0.2s;   
+}
+
+#trials {
+   color: #00adb5;
+   text-transform: uppercase;
+   position: absolute;
+   padding: 11px;
+   top: 5px;
+   left: 40px;
+   display: none;
+}
+
+#trials-left {
+   width: 200px;
+   padding: 8px;
+   position: absolute;
+   top: 2px;
+   display: none;
+}
+
+#game-over {
+   height: 200px;
+   width: 500px;
+   color: #c83660;
+   font-size: 3.5em;
+   text-align: center;
+   text-transform: uppercase;
+   position: absolute;
+   top: 170px;
+   left: 145px;
+   z-index: 2;
+   display: none;   
+}
+
+.life {
+   width: 16px;
+   height: 16px;
+   margin: 0 5px;
+}
+
+.fruit {
+   display: none;
+   position: absolute;
+}
+
+#antonio {
+   margin-top: 15px;
+   position: absolute;
+   color: #2b2b28;
+   top: 660px;
+   left: 305px;
+   letter-spacing: 5px;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+#antonio span {
+   color: #c83660;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+
+#copyright {
+   color: #2b2b28;
+}

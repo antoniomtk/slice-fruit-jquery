@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Fruits Slice Game</title>
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+   <script src="jquery-3.4.1.js"></script>
+   <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+
+   <header>
+      <h1 id="headline">Fruit Slice Game</h1>
+      <p id="intro">This is a simple fruit slicing game made with Jquery</p>      
+   </header>
+      
+   <div id="container">
+      <div id="score">
+         Score: <span id="score-value">0</span>
+      </div>      
+      <div id="trials">Life left: <span id="trials-left"></span></div>
+      <div id="fruits-container">
+         <img id="fruit1" class="fruit" src="images/apple.png">
+      </div>
+      <div id="start-reset">
+         Start Game
+      </div>      
+      <div id="game-over"></div> 
+      <div id="antonio"><span>A</span>ntonio <span>P</span>opovic<span id="copyright">&copy;</span></div>
+   </div> <!-- end container -->   
+   
+   <audio id="slicesound">
+      <source src="audio/slicefruit.mp3"></source>
+      <source src="audio/slicefruit.ogg"></source>
+   </audio>  
+
+   <script src="script.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>   
+</body>
+</html>
+
