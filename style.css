@@ -64,6 +64,7 @@ header {
    position: relative;
    overflow: hidden;
    border: 1px solid #00adb5;
+   cursor: url(http://cur.cursors-4u.net/sports/spo-1/spo15.cur), auto !important; 
 }
 
 #start-reset {
