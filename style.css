@@ -6,6 +6,16 @@ body {
    padding: 50px;
    background-color: #fff;
    color: #222831;
+   background:
+   linear-gradient(
+     rgba(0, 0, 0, 0.9), 
+     rgba(0, 0, 0, 0.9)
+   ),
+   url("https://images.unsplash.com/photo-1437750769465-301382cdf094?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 
 header {
@@ -48,7 +58,7 @@ header {
 }
 
 #score-value {
-   color: #222831;
+   color: #00ffaa;
    font-weight: bold;
 }
 
@@ -129,23 +139,15 @@ header {
    position: absolute;
 }
 
-#antonio {
-   margin-top: 15px;
-   position: absolute;
-   color: #2b2b28;
-   top: 660px;
-   left: 305px;
-   letter-spacing: 5px;
+footer img {
+   width: 50px;
+   height: auto;
    text-align: center;
-   text-transform: uppercase;
-}
-
-#antonio span {
-   color: #c83660;
-   font-weight: 600;
-   text-transform: uppercase;
-}
-
-#copyright {
-   color: #2b2b28;
-}
+   position: absolute;
+   bottom: 40px;
+   right: 49%;
+ }
+ 
+ .app-name {
+   color: #d92027;
+ }
